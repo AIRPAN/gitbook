@@ -1,0 +1,36 @@
+{
+    "plugins": [
+		"-summary",
+		"-highlight",
+        	"theme-fexa",
+		"splitter",
+        	"code",
+		"lunr",
+		"-prism",
+        	"prism-themes",
+        	"chapter-fold"
+    ],
+    "variables": {
+        "themeFexa":{
+            "nav":[
+                {
+                    "url":"http://...",
+                    "target":"_blank",
+                    "name": "Note"
+                }
+            ]
+        }
+    },
+    "pluginsConfig": {
+        "theme-fexa":{
+            "search-placeholder":"输入关键字搜索",
+            "logo":"./logo.png",
+            "favicon": "./favicon.ico" 
+        },
+		"prism": {
+		  "css": [
+			"prism-themes/themes/prism-atom-dark.css"
+		  ]
+		}
+    }
+}
